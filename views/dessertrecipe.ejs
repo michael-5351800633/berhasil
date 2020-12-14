@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+       <script src="https://kit.fontawesome.com/3a4bcfbf6d.js" crossorigin="anonymous"></script>
+       <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+     
+    </head>
+    <style>
+     hr{
+       border: none;
+       border-top: 2px solid;
+     }
+     .footer {
+      left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color:grey;
+     color: white;
+     text-align: center;
+     }
+     .pagination{
+      margin: 10px 10px;
+    }
+
+    .pagination a {
+      color: rgb(226, 60, 115);
+      padding: 8px 16px;
+      font-weight: 800;
+      transition: background-color .3s;
+    }
+
+    .pagination a.active {
+      background-color:rgb(226, 60, 115);
+      color: white;
+    }
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+   .lolo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px #000;
+    background:transparent;
+    font-weight: 700;
+    color: white;
+    font-size: 4ch;
+    border: none;
+
+   }
+   .lolo:hover{
+     color: orange;
+     
+   }
+   .card-title{
+     font-weight: 600;
+     letter-spacing: 2px;
+     font-family:'Montserrat', sans-serif; ;
+   }
+   .dropdown-item{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     letter-spacing: 2px;
+   }
+
+   .checked {
+  color: orange;
+  }
+        .nav-link{
+    color:black;
+    transition: 0.2s;
+  }
+  .nav-link:hover{
+    color: orange;
+  }
+  .lala{
+    color:black;
+  }
+  .lala:hover{
+    color: orange;
+  }
+       
+
+    </style>
+    
+    <body style="background-color: white;"><br>
+      <%- include ("partials/navbar"); %>
+        
+                <nav aria-label="breadcrumb ml-5">
+                    <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Recipes</a></li>
+                      <li class="breadcrumb-item"><a href="Project_DessertRecipe.html">Dessert</a></li>
+                    </ol>
+                </nav>
+                
+                <div  style="background-color: white;" >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-8"><br>
+                      <h2 style="font-family: 'Montserrat', sans-serif; font-size: 200%; font-weight: 700;letter-spacing: 3px; text-align: center;">DESSERT RECIPES</h2><br>
+                      <div style="border: solid 2px BLACK;border-radius: 2px;padding: 10px;">
+                      <img src="https://i0.wp.com/www.eatthis.com/wp-content/uploads/2019/07/dessert-table.jpg?fit=1200%2C879&ssl=1" alt="masakan" width="700px" height="500px"><br><br>
+                  <h6 style="font-size: 115%; font-weight: 300;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">is a collection of Dessert recipes, that you can do in your home, and on a good budget.</h6>
+                  <br>
+                <ul style="position: relative;right: -5cm;">
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#ec51b1 ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-instagram"></i></a></li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#2980b9 ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-facebook"></i></a> </li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#e74a4a ;font-size: 35px;transition: 0.2s;" href=""><i class="fas fa-envelope"></i></a></li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#62c0ff ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+                </div>
+                </div>
+                <div class="col-sm-3 offset-sm-1"><br><br>
+               
+                  <div class="card" style="width: 18rem;">
+                    <div style="border: solid 2px BLACK;border-radius: 2px;padding: 10px;">
+                    <img src="https://exquisite-taste-magazine.com/wp-content/uploads/2020/02/IMG_9849.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 style="text-align: center;font-weight: 700;font-size: 3CH;font-family:'Montserrat', sans-serif; ;">HI I'M MICHAEL !</h6>
+                      <p class="card-text">I believe you can make great food with everyday ingredients even if you’re short on time and cost conscious. You just need to cook clever and get creative !.</p>
+               
+                  </div>
+                  </div> 
+                </div> 
+                </div>
+              </div>
+              </div>
+              <div class="container">
+                <hr>
+              </div>
+              <BR>
+      
+              <h3 style="text-align: center;font-family:'Montserrat', sans-serif;font-weight: 700;letter-spacing: 3px;font-size: 200%;">POPULAR DESSERT RECIPES </h3><br>
+              <div class="container" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                          <div class="card-deck " style="position: relative;right: -3cm;">
+                          <div class="row">
+                          <div class="card " style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps22750_RM10454D50C.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">STRAWBERRY MALLOW DESSERT</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">I wanted a quick easy summer dessert to serve guests when we entertain outdoors. With just a few ingredients, there isn't a lot of preparation required. Topped with a strawberry and served in wine glasses, it looks pretty, too.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                          <div class="card "style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps28848_QC10054C11A.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">BERRY REFRESHER DESSERT</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">A colorful combination of pineapple sherbet, berries and grape juice makes a refreshing dessert on a hot summer day. —Carol Gillespie, Chambersburg, Pennsylvania</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                          <div class="card"style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps21585_THCA153054D10_15_4b-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">CHERRY CREAM CHEESE DESSERT</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">Pretty layers of graham cracker crumbs, tasty filling and fruit topping make these cream cheese desserts a standout! For a nice change, you can substitute blueberry pie filling or another fruit flavor for the filling called for in the recipe. —Melody Mellinger, Myerstown, Pennsylvania</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><br><br>
+                    <div class="container">
+                    <hr>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                    <div class="col-sm-8">
+                      <h2 style="font-family: 'Montserrat', sans-serif;font-weight: 600;font-size: 200%;letter-spacing: 3px;">Dessert Recipes</h2><br><br>
+                  <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps43811_CFT1437887D30A.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="font-weight: 600;" >DESSERT BRUSCHETTA WITH NECTARINE SALSA</h5>
+                          <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                          <p class="card-text">"This is an easy, no-cook dessert for hot summer days. The flavors work wonderfully together. —Sally Sibthorpe, Shelby Township, Michigan"</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps8526_QC2610C21A.jpg"  class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="font-weight: 600;">VANILLA FRUIT DESSERT</h5>
+                          <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star "></span> 
+                          <p class="card-text">Our daughters, Lindsay and Sarah, love the mild orange-flavored topping on the this dessert. If there's any left over—and that doesn't happen too often—they'll ask for it for breakfast. —Julie Scott, Pratt, Kansas</p>
+                          <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Broiled-Blueberry-Dessert_exps23800_SD19999443C04_19_2bC_RMS-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 600;">BROILED BLUEBERRY DESSERT</h5>
+                          <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                          <p class="card-text" >This blueberry dessert gives any meal a mouthwatering ending. —Betty Jean Nichols, Eugene, Oregon</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps6406_W101973175D05_03_2b_RMS-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 600;">DESSERT WAFFELS</h5>
+                          <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                          <p class="card-text">Everyone raves about the contrast between the crunchy waffles and creamy ice cream in this dessert.—Sheila Watson, Stettler, Alberta</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 offset-sm-1"><br><br><br><br><br>
+                 
+                  <img class="w3-round" src="https://meramuda.com/wp-content/uploads/2019/09/vegetarian-diet-plan-1296x728-feature.jpg" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt=""><br><br>
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 13cm;" >VEGETARIAN</button>
+                  </div>
+
+                  <img class="w3-round" src="https://img.taste.com.au/K1S-jtpM/taste/2016/11/top-50-desserts-117787-1.jpeg" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt=""><br><br>
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 7cm;" >DESSERT</button>
+                  </div>
+
+                  <img class="w3-round" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202001-bacon-wrapped-water-chestnuts-0158-portrait-pf-1580337933.jpg?crop=1.00xw:0.667xh;0,0.188xh&resize=768:*" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt="">
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 1cm;" >APPTIZER</button>
+                   
+                 
+    
+                  </div>
+                 </div>
+                  </div><br>
+
+
+
+                <div class="pagination" style="position: relative; right: -15cm;">
+                  <a href="#">&laquo;</a>
+                  <a class="active" href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">NEXT ></a>
+                </div><br>
+                  </div>
+              
+                <!--Footer-->
+    <br> <br>
+
+    
+</body>
+<%- include ("partials2/footer"); %>
+</html>
+      
+
+            
+              

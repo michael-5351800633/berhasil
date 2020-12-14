@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+       <script src="https://kit.fontawesome.com/3a4bcfbf6d.js" crossorigin="anonymous"></script>
+       <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+     
+    </head>
+    <style>
+     hr{
+       border: none;
+       border-top: 2px solid;
+     }
+     .footer {
+      left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color:grey;
+     color: white;
+     text-align: center;
+     }
+     .pagination{
+      margin: 10px 10px;
+    }
+
+    .pagination a {
+      color: rgb(226, 60, 115);
+      padding: 8px 16px;
+      font-weight: 800;
+      transition: background-color .3s;
+    }
+
+    .pagination a.active {
+      background-color:rgb(226, 60, 115);
+      color: white;
+    }
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+   .lolo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px #000;
+    background:transparent;
+    font-weight: 700;
+    color: white;
+    font-size: 4ch;
+    border: none;
+
+   }
+   .lolo:hover{
+     color: orange;
+     
+   }
+   .card-title{
+     font-weight: 600;
+     letter-spacing: 2px;
+     font-family:'Montserrat', sans-serif; ;
+   }
+   .dropdown-item{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     letter-spacing: 2px;
+   }
+
+   .checked {
+  color: orange;
+  }
+        .nav-link{
+    color:black;
+    transition: 0.2s;
+  }
+  .nav-link:hover{
+    color: orange;
+  }
+  .lala{
+    color:black;
+  }
+  .lala:hover{
+    color: orange;
+  }
+
+
+    </style>
+    
+    <body style="background-color: white;"><br>
+  
+      <%- include ("partials/navbar"); %>
+                <nav aria-label="breadcrumb ml-5">
+                    <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Recipes</a></li>
+                      <li class="breadcrumb-item"><a href="Project_AppetizerRecipe.html">Appetizer</a></li>
+                    </ol>
+                </nav>
+                
+                <div  style="background-color: white;" >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-8"><br>
+
+                      <h2 style="font-family: 'Montserrat', sans-serif; font-size: 200%; font-weight: 700;letter-spacing: 3px; text-align: center;">APPETIZER RECIPES</h2><br>
+                      <div style="border: 3px solid black; border-radius: 2px; padding: 10px;">
+                    <img src="https://www.moneycrashers.com/wp-content/uploads/2019/03/favorite-quick-easy-appetizer-recipes-parties.jpg" alt="masakan" width="700px" height="500px"><br><br>
+                  <h6 style="font-size: 115%; font-weight: 300;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">is a collection of appetizer recipes, that you can do in your home, and on a good budget.</h6>
+                  <br>
+                <ul style="position: relative;right: -5cm;">
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#ec51b1 ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-instagram"></i></a></li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#2980b9 ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-facebook"></i></a> </li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#e74a4a ;font-size: 35px;transition: 0.2s;" href=""><i class="fas fa-envelope"></i></a></li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#62c0ff ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+                </div>
+              </div> 
+                <div class="col-sm-3 offset-sm-1"><br><br>
+               
+                  <div class="card" style="width: 18rem;">
+                    <div style="border: solid 2px BLACK;border-radius: 2px;padding: 10px;">
+                    <img src="https://exquisite-taste-magazine.com/wp-content/uploads/2020/02/IMG_9849.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 style="text-align: center;font-weight: 700;font-size: 3CH;font-family:'Montserrat', sans-serif; ;">HI I'M MICHAEL !</h6>
+                      <p class="card-text">I believe you can make great food with everyday ingredients even if you’re short on time and cost conscious. You just need to cook clever and get creative !.</p>
+               
+                  </div>
+                  </div> 
+                </div> 
+                </div>
+              </div>
+              </div>
+              <div class="container">
+                <hr>
+              </div>
+              <BR>
+      
+              <h3 style="text-align: center;font-family:'Montserrat', sans-serif;font-weight: 700;letter-spacing: 3px;font-size: 200%;">POPULAR APPETIZER RECIPES </h3><br>
+              <div class="container" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                          <div class="card-deck " style="position: relative;right: -3cm;">
+                          <div class="row">
+                          <div class="card " style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Savory-Party-Bread_EXPS_THMBRDS19_8115_C10_03_5b-2-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">SAVORY PARTY BREAD</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">It's impossible to stop nibbling on warm pieces of this cheesy, oniony bread. The sliced loaf fans out for a fun presentation. It's one of the best savory appetizers I've found. — Kay Daly, Raleigh, North Carolina</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                          <div class="card "style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/07/Orange-Glazed-Meatballs_EXPS_THSO18_228881_D04_19_9b-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">ORANGE-GLAZED MEATBALLS</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">I love the sweet orange marmalade paired with the zip of a jalapeno in this sweet-sour glaze. — Bonnie Stallings, Martinsburg, West Virginia</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                          <div class="card"style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-Parmesan-Slider-Bake_EXPS_MTCBBZ17_204498_D03_01_3b-1-696x696.jpg" class="card-img-top w3-hover-opacity"  alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">CHICKEN PARMESAN SLIDER BAKE</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">Sliders are the perfect finger food for any get-together, and this flavorful chicken Parmesan version won’t disappoint. —Nick Iverson, Denver, Colorado</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>   
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><br><br>
+                    <div class="container">
+                    <hr>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                    <div class="col-sm-8">
+                      <h2 style="font-family: 'Montserrat', sans-serif;font-weight: 600;font-size: 200%;letter-spacing: 3px;">Appetizer Recipes</h2><br><br>
+                  <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Grilled-Tomato-Peach-Pizza_EXPS_HC17_142137_D07_29_4b-3-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="font-weight: 600;" >GRILLED TOMATO-PEACH PIZZA</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span> 
+                          <p class="card-text">This delicious pizza is unique, healthy and easy to make. The fresh flavors make it a perfect appetizer for a summer party. — Scarlett Elrod, Newnan, Georgia</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Ham-n-Cheese-Biscuit-Stacks_EXPS_HC17_31947_D10_19_8b-696x696.jpg"  class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="font-weight: 600;">HAM ‘N’ CHEESE BISCUIT STACKS</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span> 
+                          <p class="card-text">These finger sandwiches are filling enough to satisfy hearty appetites. I've served the fun little stacks at every event, including holiday gatherings, showers and tailgate parties. —Kelly Williams, Forked River, New Jersey</p>
+                          <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Fried-Prosciutto-Tortellini_EXPS_THN16_196633_C06_16_1b-2-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 600;">FRIED PROSCIUTTO TORTELLINI</h5> 
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span> 
+                          <p class="card-text" >My take on Italian street food, these fried tortellini are crunchy, gooey good. For the sauce, use the best quality tomatoes you can find. —Angela Lemoine, Howell, New Jersey</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Tuscan-Sausage-Bean-Dip_EXPS_THCSF16_157522_A06_01_4b-2-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 600;">TUSCAN SAUSAGE & BEAN DIP</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span> 
+                          <p class="card-text">This is a spinoff of a Mexican dip I had once. The original was wicked good, but since I was going through an "I’m-so-over-Mexican-dip" phase, I decided to switch it up. Take it to a party—I'll bet you no one else will bring anything like it! —Mandy Rivers, Lexington, South Carolina</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 offset-sm-1"><br><br><br><br><br>
+                 
+                  <img class="w3-round" src="https://meramuda.com/wp-content/uploads/2019/09/vegetarian-diet-plan-1296x728-feature.jpg" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt=""><br><br>
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 14cm;" >VEGETARIAN</button>
+                  </div>
+
+                  <img class="w3-round" src="https://img.taste.com.au/K1S-jtpM/taste/2016/11/top-50-desserts-117787-1.jpeg" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt=""><br><br>
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 8cm;" >DESSERT</button>
+                  </div>
+
+                  <img class="w3-round" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202001-bacon-wrapped-water-chestnuts-0158-portrait-pf-1580337933.jpg?crop=1.00xw:0.667xh;0,0.188xh&resize=768:*" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt="">
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 2cm;" >APPTIZER</button>
+                   
+                 
+    
+                  </div>
+                 </div>
+                  </div><br>
+
+
+
+                <div class="pagination" style="position: relative; right: -15cm;">
+                  <a href="#">&laquo;</a>
+                  <a class="active" href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">NEXT ></a>
+                </div><br>
+               
+                  </div>
+                <!--Footer-->
+    <br> <br>
+
+    <%- include ("partials2/footer"); %>
+</body>
+</html>
+      
+
+            
+              

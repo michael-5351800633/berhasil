@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+       <script src="https://kit.fontawesome.com/3a4bcfbf6d.js" crossorigin="anonymous"></script>
+       <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+     
+    </head>
+    <style>
+     hr{
+       border: none;
+       border-top: 2px solid;
+     }
+     .footer {
+      left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color:grey;
+     color: white;
+     text-align: center;
+     }
+     .pagination{
+      margin: 10px 10px;
+    }
+
+    .pagination a {
+      color: rgb(226, 60, 115);
+      padding: 8px 16px;
+      font-weight: 800;
+      transition: background-color .3s;
+    }
+
+    .pagination a.active {
+      background-color:rgb(226, 60, 115);
+      color: white;
+    }
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+   .lolo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px #000;
+    background:transparent;
+    font-weight: 700;
+    color: white;
+    font-size: 4ch;
+    border: none;
+
+   }
+   .lolo:hover{
+     color: orange;
+     
+   }
+   .card-title{
+     font-weight: 600;
+     letter-spacing: 2px;
+     font-family:'Montserrat', sans-serif; ;
+   }
+   .dropdown-item{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     letter-spacing: 2px;
+   }
+
+   .checked {
+  color: orange;
+}
+        .nav-link{
+    color:black;
+    transition: 0.2s;
+  }
+  .nav-link:hover{
+    color: orange;
+  }
+  .lala{
+    color:black;
+  }
+  .lala:hover{
+    color: orange;
+  }
+
+    </style>
+    
+    <body style="background-color: white;"><br>
+  
+      <%- include ("partials/navbar"); %>
+                <nav aria-label="breadcrumb ml-5">
+                    <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Recipes</a></li>
+                      <li class="breadcrumb-item"><a href="Project_VegetarianRecipe.html">Vegetarian</a></li>
+                    </ol>
+                </nav>
+                
+                <div  style="background-color: white;" >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-8"><br>
+                      <h2 style="font-family: 'Montserrat', sans-serif; font-size: 200%; font-weight: 700;letter-spacing: 3px; text-align: center;">VEGETARIAN RECIPES</h2><br>
+                      <div style="border: 3px solid black; border-radius: 2px; padding: 10px;">
+                    <img src="https://www.seriouseats.com/recipes/images/2016/12/20161201-crispy-roast-potatoes-29-1500x1125.jpg" alt="masakan" width="700px" height="500px"><br><br>
+                  <h6 style="font-size: 115%; font-weight: 300;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">is a collection of vegetarian recipes, that you can do in your home, and on a good budget.</h6>
+                  <br>
+                <ul style="position: relative;right: -5cm;">
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#ec51b1 ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-instagram"></i></a></li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#2980b9 ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-facebook"></i></a> </li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#e74a4a ;font-size: 35px;transition: 0.2s;" href=""><i class="fas fa-envelope"></i></a></li>
+                  <li style="display: inline-block; margin: 10px 10px;"><a style="color:#62c0ff ;font-size: 35px;transition: 0.2s;" href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+                </div>
+                </div>
+                <div class="col-sm-3 offset-sm-1"><br><br>
+               
+                  <div class="card" style="width: 18rem;">
+                    <div style="border: solid 2px BLACK;border-radius: 2px;padding: 10px;">
+                    <img src="https://exquisite-taste-magazine.com/wp-content/uploads/2020/02/IMG_9849.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 style="text-align: center;font-weight: 700;font-size: 3CH;font-family:'Montserrat', sans-serif; ;">HI I'M MICHAEL !</h6>
+                      <p class="card-text">I believe you can make great food with everyday ingredients even if you’re short on time and cost conscious. You just need to cook clever and get creative !.</p>
+               
+                  </div>
+                  </div> 
+                </div> 
+                </div>
+              </div>
+              </div>
+              <div class="container">
+                <hr>
+              </div>
+              <BR>
+      
+              <h3 style="text-align: center;font-family:'Montserrat', sans-serif;font-weight: 700;letter-spacing: 3px;font-size: 200%;">POPULAR VEGETARIAN RECIPES </h3><br>
+              <div class="container" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                          <div class="card-deck " style="position: relative;right: -3cm;">
+                          <div class="row">
+                          <div class="card " style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Meatless-Taco-Salad_EXPS_SDJJ19_40322_E02_07_8b-1-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">MEATLESS TACO SALAD</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">This colorful entree combines popular taco ingredients—minus the ground beef. And you won't miss the meat at all! I top each serving with a creamy guacamole dressing, crunchy corn chips and cheese. — Kimberly Dray, Pflugerville, Texas</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                          <div class="card "style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Contest-Winning-Vegetarian-Chili_EXPS_FT20_14303_F_0107_1-1-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">CONTEST-WINNING VEGETARIAN CHILI</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">My husband and I try to have at least one meatless meal each week and this vegetarian chili recipe is one of our favorites. This recipe makes a huge pot that's chock-full of color and flavor. And once the chopping is done, it's quick to cook. — Marilyn Barilleaux, Bothell, Washington</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                          <div class="card"style="width: 18rem;">
+                            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Vegetarian-Hummus-Wraps_exps23683_SD1115060A10_19_2b_RMS-1-696x696.jpg" class="card-img-top w3-hover-opacity"  alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="font-weight: 700;">VEGETARIAN HUMMUS WRAPS</h5>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> 
+                              <p class="card-text">I created this recipe to get more veggies into my diet. I'm busy and on the go like many other mothers. This recipe gives me energy and tastes delicious. — Amber Indra, Thousand Oaks, California.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><br><br>
+                    <div class="container">
+                    <hr>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                    <div class="col-sm-8">
+                      <h2 style="font-family: 'Montserrat', sans-serif;font-weight: 600;font-size: 200%;letter-spacing: 3px;">Vegetarian Recipes</h2><br><br>
+                  <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps25254_QC10597D47B.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="font-weight: 600;" >VEGETARIAN PENNE</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span> 
+                          <p class="card-text">"My husband and I love pasta and vegetables," relates Gail Cawsey of Geneseo, Illinois. "I created this dish several years ago. It serves as dinner for the two of us or as an impressive side dish when we're entertaining."</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Pasta-with-Garlic-Oil_exps36149_SD2401787A04_17_2b_RMS-696x696.jpg"  class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="font-weight: 600;">PASTA WITH GARLIC OIL</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star "></span> 
+                          <p class="card-text">My family is Italian, and this is one of our old faves with plenty of garlic, mushrooms and herbs. To help the sauce adhere, don’t rinse the pasta in water after you drain it. — Pamela Vittori, Chicago Heights, Illinois</p>
+                          <button type="button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps42068_HS2776880A05_30_3b_WEB-1-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 600;">HEARTY MEATLESS MINESTRONE</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star "></span>
+                          <span class="fa fa-star "></span> 
+                          <p class="card-text" >A friend gave me this quick, healthy recipe, and it's oh-so-tasty. It makes a big batch and is great for leftovers. To enhance the flavor, add a pound or two of sweet Italian sausage. — Mickey Turner, Grants Pass, Oregon</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Vegetarian-Enchilada-Bake_EXPS_FT20_41796_F_0108_1-1-696x696.jpg" class="card-img-top w3-hover-opacity" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 600;">VEGETARIAN ENCHILADA BAKE</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star "></span> 
+                          <p class="card-text">I’ve had this vegetarian enchilada bake recipe for years. You’ll enjoy the delicious Tex-Mex flavors so much that you won't even miss the meat. —Barbara Stelluto, Devon, Pennsylvania</p>
+                          <button type="button"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;background-color: white;font-weight: 700;" >Read more . . .</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 offset-sm-1"><br><br><br><br><br>
+                 
+                  <img class="w3-round" src="https://meramuda.com/wp-content/uploads/2019/09/vegetarian-diet-plan-1296x728-feature.jpg" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt=""><br><br>
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 13cm;" >VEGETARIAN</button>
+                  </div>
+
+                  <img class="w3-round" src="https://img.taste.com.au/K1S-jtpM/taste/2016/11/top-50-desserts-117787-1.jpeg" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt=""><br><br>
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 7cm;" >DESSERT</button>
+                  </div>
+
+                  <img class="w3-round" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202001-bacon-wrapped-water-chestnuts-0158-portrait-pf-1580337933.jpg?crop=1.00xw:0.667xh;0,0.188xh&resize=768:*" style="height: 200px;width: 400px;position: relative;right: 2cm;" alt="">
+                  <div class="centered" >
+                    <button class="lolo" style="position: relative;bottom: 2cm;" >APPTIZER</button>
+                   
+                 
+    
+                  </div>
+                 </div>
+                  </div><br>
+
+
+                <div class="pagination" style="position: relative; right: -15cm;">
+                  <a href="#">&laquo;</a>
+                  <a class="active" href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">NEXT ></a>
+                </div><br>
+                  </div>
+              
+                <!--Footer-->
+    <br> <br>
+
+    
+</body>
+<%- include ("partials2/footer"); %>
+</html>
+      
+
+            
+              
